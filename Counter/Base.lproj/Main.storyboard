@@ -18,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OHI-nZ-T9Y">
-                                <rect key="frame" x="198" y="648" width="179" height="80"/>
+                                <rect key="frame" x="197.66666666666663" y="648" width="179.33333333333337" height="80"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="80" id="Xh9-2E-yDL"/>
                                 </constraints>
@@ -28,11 +28,11 @@
                                     <color key="baseBackgroundColor" systemColor="systemRedColor"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="plusButtonDidTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2iF-kg-byA"/>
+                                    <action selector="plusButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Z4s-rz-kOE"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xbq-QP-Z14">
-                                <rect key="frame" x="16" y="648" width="162" height="80"/>
+                                <rect key="frame" x="16" y="648" width="161.66666666666666" height="80"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="80" id="XnS-mD-5DP"/>
                                 </constraints>
@@ -42,7 +42,7 @@
                                     <color key="baseBackgroundColor" systemColor="systemBlueColor"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="minusButtonDidTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sOm-Kw-NsT"/>
+                                    <action selector="minusButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cPJ-hw-pAY"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b6k-XW-UEJ">
@@ -56,7 +56,7 @@
                                     <color key="baseBackgroundColor" systemColor="systemGrayColor"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="resetButtonDidTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6dM-vW-O1d"/>
+                                    <action selector="resetButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Wuh-Lk-nHK"/>
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cnc-mN-jyp">
@@ -100,7 +100,7 @@
                     </view>
                     <connections>
                         <outlet property="countTitle" destination="wEr-al-dbQ" id="ek2-S9-zoK"/>
-                        <outlet property="history" destination="cnc-mN-jyp" id="2Ei-YW-Tst"/>
+                        <outlet property="history" destination="cnc-mN-jyp" id="D32-yy-ejE"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
